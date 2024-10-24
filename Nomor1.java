@@ -6,19 +6,20 @@ public class Nomor1{
         int tunjanganKesehatan;
         int jumlahAnggotaKeluarga;
         int jumlahTunjangan_per_jiwa = 100000;
- 
-        System.out.print("jumlah anggota keluarga: ");
-        int jumlah = scanner.nextInt();
 
+        Scanner scanner = new Scanner(System.in);
+ 
+        System.out.print(" masukkan jumlah anggota keluarga: ");   
+        jumlah anggota = scanner.nextInt();
         System.out.print("besar tunjangan kesehatan: ");
-        int tunjangan = scanner.nextInt();
+        tunjanganKesehatan = scanner.nextInt();
 
         if (jumlahAnggotaKeluarga <= 3) {
-            tunjanganKesehatan = 1* jumlahTunjangan_per_jiwa;
-        }  else if ( jumlahAnggotaKeluarga >= 3 && ); {
+            tunjanganKesehatan = jumlahTunjangan_per_jiwa;
+        }  else if ( jumlahAnggotaKeluarga >= 3 ); {
             tunjanganKesehatan = 1 * jumlahTunjangan_per_jiwa;
-        }  else {
-            tunjanganKesehatan = 50000
+        } else {
+            tunjanganKesehatan = 50000;
 
         }
 
@@ -27,6 +28,3 @@ public class Nomor1{
         }
     
     }
-
-    }
-}
