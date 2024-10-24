@@ -1,0 +1,38 @@
+1.	PT. MURAH HATI memberi tunjangan Kesehatan kepada pegawai dan anggota keluarganya dengan ketentuan sebagai berikut:
+a.	Bila jumlah anggota keluarga sampai dengan 3 jiwa, maka tunjangan Kesehatan yang diberikan sebesar 100.000/jiwa.
+b.	Bila jumlah anggota keluarga lebih dari 3 jiwa, maka tunjangan kesehatan yang diberikan untuk 3 jiwa pertama sebesar 100.000/jiwa dan sisanya diberikan tunjangan sebesar 50.000/jiwa.
+
+Buat algoritma dan program Java untuk menghitung tunjangan Kesehatan yang diterima oleh pegawai berdasarkan jumlah anggota keluarganya.
+
+Output program:
+Jumlah anggota keluarga:2
+Besar tunjangan kesehata = 200000.0
+
+2.	PT Boneka Uvvu memiliki 3 produk boneka, yaitu: Labubu, Jenglot, dan Voodo. 
+Seorang kasir ingin mencatat total pendapatan yang dicapai oleh setiap produk boneka 
+dan menentukan produk mana yang memiliki omzet paling besar. 
+Omzet dihitung berdasarkan banyaknya pembelian 
+Rincian harga produk adalah sebagai berikut:
+
+Barang      Harga
+Labubu      300000
+Jenglot     250000
+Voodo       200000
+
+Untuk setiap transaksi, jika pembelian mulai dari 500000, maka akan mendapat diskon 10%.
+Jika transaksi pembelian mulai dari 1000000, maka akan mendapat diskon 15%.
+Buatlah rancangan algoritma dan program untuk memenuhi kebutuhan Sang kasir
+Output program:
+
+Masukan nama produk [Labubu/Jenglot/Kita]:Labubu
+jumlah pembelian: 2
+Input lagi (Y/N)?: Y 
+Masukan nama produk [Labubu/Jenglot/Kita]:Jenglot
+jumlah pembelian: 2
+Input lagi (Y/N)?: Y 
+Masukan nama produk [Labubu/Jenglot/Kita]:Labubu
+jumlah pembelian: 2
+Input lagi (Y/N)?: Y
+Total transaksi yang terjadi = 3
+Jumlah uang yang diterima =  1530000.0
+
